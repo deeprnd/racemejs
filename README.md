@@ -1,7 +1,7 @@
-d3-clustering
+Raceme.js
 =============
 
-Clustering algorithms package using d3.js library
+JavaScript clustering algorithms framework
 
 ***Roadmap:***
 - K-means clustering algorithm
