@@ -10,16 +10,14 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine', 'requirejs'],
+    frameworks: ['jasmine'],
 
 
     // list of files / patterns to load in the browser
-    files: [
-        {pattern: 'bower_components/requirejs/require.js', included: false},
-        {pattern: 'src/common/*.js', included: false},
-        {pattern: 'src/dataMappers/*.js', included: false},
-        {pattern: 'test/spec/*Spec.js', included: false},
-        'test/test-require-main.js'
+    files: [      
+      '../src/common/*.js',
+      '../src/dataMappers/*.js',
+      'spec/*Spec.js'
     ],
 
 
@@ -59,11 +57,11 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['Chrome', 'Firefox'],
+    browsers: ['Chrome'],
 
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: true
-});
+  });
 };

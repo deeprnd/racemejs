@@ -2,12 +2,206 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c175502-e0dd-4da7-830e-49764d591be2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Jasmine.xml" />
-      <change type="DELETED" beforePath="C:\GitHub\racemejs\common\Utils.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\racemejs\common\Vector.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\GitHub\racemejs\distances\EuclideanDistance.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/racemejs.iml" afterPath="$PROJECT_DIR$/.idea/racemejs.iml" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\bower_components\d3\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\bower_components\d3\.spmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\bower_components\d3\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\bower_components\d3\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\bower_components\d3\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\bower_components\d3\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\bower_components\d3\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\bower_components\d3\d3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\bower_components\d3\d3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\.rspec" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\GOALS_2.0.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\MANIFEST.in" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\MIT.LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\RELEASE.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\dist\jasmine-standalone-1.0.0.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\dist\jasmine-standalone-1.1.0.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\dist\jasmine-standalone-1.2.0.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\dist\jasmine-standalone-1.3.0.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\dist\jasmine-standalone-1.3.1.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\dist\jasmine-standalone-2.0.0.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\dist\jasmine-standalone-2.0.1.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\dist\jasmine-standalone-2.0.2.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\dist\jasmine-standalone-2.0.3.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\grunt\config\compass.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\grunt\config\compress.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\grunt\config\concat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\grunt\config\jshint.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\grunt\tasks\build_standalone.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\grunt\tasks\version.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\grunt\templates\SpecRunner.html.jst" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\grunt\templates\licenseBanner.js.jst" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\grunt\templates\version.rb.jst" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\images\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\images\jasmine-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\images\jasmine-horizontal.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\images\jasmine_favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\jasmine-core.gemspec" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\console\console.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\boot.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\boot\boot.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\boot\node_boot.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\core.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\example\node_example\spec\PlayerSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\example\node_example\spec\SpecHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\example\node_example\src\Player.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\example\node_example\src\Song.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\example\spec\PlayerSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\example\spec\SpecHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\example\src\Player.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\example\src\Song.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\json2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\node_boot.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\lib\jasmine-core\version.rb" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\release_notes\2.0.1.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\release_notes\2.0.2.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\release_notes\20.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\requirements.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\setup.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\console\ConsoleReporterSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\AnySpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\CallTrackerSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\ClockSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\DelayedFunctionSchedulerSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\EnvSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\ExceptionFormatterSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\ExceptionsSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\ExpectationResultSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\ExpectationSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\JsApiReporterSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\MockDateSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\ObjectContainingSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\PrettyPrintSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\QueueRunnerSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\ReportDispatcherSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\SpecSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\SpySpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\SpyStrategySpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\SuiteSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\TimerSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\UtilSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\integration\CustomMatchersSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\integration\EnvSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\integration\SpecRunningSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\matchersUtilSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toBeCloseToSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toBeDefinedSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toBeFalsySpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toBeGreaterThanSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toBeLessThanSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toBeNaNSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toBeNullSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toBeSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toBeTruthySpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toBeUndefinedSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toContainSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toEqualSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toHaveBeenCalledSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toHaveBeenCalledWithSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toMatchSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toThrowErrorSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\core\matchers\toThrowSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\helpers\BrowserFlags.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\helpers\defineJasmineUnderTest.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\helpers\nodeDefineJasmineUnderTest.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\html\HtmlReporterSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\html\HtmlSpecFilterSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\html\MatchersHtmlSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\html\PrettyPrintHtmlSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\html\QueryStringSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\html\ResultsNodeSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\javascripts\support\jasmine_selenium_runner.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\performance\large_object_test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\performance\performance_test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\support\jasmine-performance.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\support\jasmine-performance.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\support\jasmine.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\spec\support\jasmine.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\console\ConsoleReporter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\console\requireConsole.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\Any.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\CallTracker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\Clock.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\DelayedFunctionScheduler.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\Env.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\ExceptionFormatter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\Expectation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\ExpectationResult.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\JsApiReporter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\MockDate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\ObjectContaining.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\PrettyPrinter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\QueueRunner.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\ReportDispatcher.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\Spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\SpyStrategy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\Suite.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\Timer.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\base.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\matchersUtil.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\requireMatchers.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toBe.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toBeCloseTo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toBeDefined.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toBeFalsy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toBeGreaterThan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toBeLessThan.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toBeNaN.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toBeNull.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toBeTruthy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toBeUndefined.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toContain.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toEqual.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toHaveBeenCalled.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toHaveBeenCalledWith.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toMatch.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toThrow.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\matchers\toThrowError.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\requireCore.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\requireInterface.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\core\util.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\html\HtmlReporter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\html\HtmlSpecFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\html\QueryString.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\html\ResultsNode.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\html\_HTMLReporter.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\html\jasmine.scss" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\html\requireHtml.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\templates\example_project_jasmine_tags.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\templates\version.js.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\templates\version.rb.erb" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\src\version.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\travis-core-script.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\travis-docs-script.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\jasmine\travis-node-script.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\requirejs\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\requirejs\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\requirejs\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\GitHub\racemejs\test\bower_components\requirejs\require.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/karma.conf.js" afterPath="$PROJECT_DIR$/karma.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/karma.conf.require.js" afterPath="$PROJECT_DIR$/karma.conf.require.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="racemejs.iws" />
@@ -44,8 +238,8 @@
       <file leaf-file-name="karma.conf.require.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/karma.conf.require.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="796" max-vertical-offset="1275">
-              <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="813" max-vertical-offset="1275">
+              <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -112,7 +306,7 @@
       <file leaf-file-name="Vector.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/common/Vector.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07121662" vertical-offset="214" max-vertical-offset="561">
+            <state vertical-scroll-proportion="0.0038910506" vertical-offset="237" max-vertical-offset="561">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
@@ -406,11 +600,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3447099" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48122868" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24981412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -478,8 +672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/karma.conf.require.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="796" max-vertical-offset="1275">
-          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="813" max-vertical-offset="1275">
+          <caret line="67" column="3" selection-start-line="67" selection-start-column="3" selection-end-line="67" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -532,7 +726,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/Vector.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07121662" vertical-offset="214" max-vertical-offset="561">
+        <state vertical-scroll-proportion="0.0038910506" vertical-offset="237" max-vertical-offset="561">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
