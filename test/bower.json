@@ -1,0 +1,8 @@
+{
+  "name": "racemejs",
+  "version": "0.0.0",
+  "dependencies": {
+      "jasmine": "~2.0.2"
+  },
+  "devDependencies": {}
+}

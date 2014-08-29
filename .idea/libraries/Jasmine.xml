@@ -1,0 +1,8 @@
+<component name="libraryTable">
+  <library name="Jasmine" type="javaScript">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/test/bower_components/jasmine/lib/jasmine-core/jasmine.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
