@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "dependencies": {
       "jasmine": "~2.0.2",
-      "requirejs": "~2.1.14"
+      "requirejs": "~2.1.14",
+      "mathjs": "~0.27.0"
   },
   "devDependencies": {}
 }

@@ -4,12 +4,16 @@
     var Vector = function Vector(v) {
         var vector = v;
 
-        this.length = function length() {
+        this.getLength = function getLength() {
             return vector.length;
         };
 
         this.toArray = function toArray() {
             return vector;
+        };
+
+        this.isEqualDimension = function isEqualDimension(v) {
+            return v.getLength() === this.getLength();
         };
     };
 

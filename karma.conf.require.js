@@ -18,6 +18,8 @@ module.exports = function(config) {
         {pattern: 'bower_components/requirejs/require.js', included: false},
         {pattern: 'src/common/*.js', included: false},
         {pattern: 'src/dataMappers/*.js', included: false},
+        {pattern: 'bower_components/mathjs/dist/math.js', included: false},
+        {pattern: 'src/distances/EuclideanDistance.js', included: false},
         {pattern: 'test/spec/*Spec.js', included: false},
         'test/test-require-main.js'
     ],

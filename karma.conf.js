@@ -17,6 +17,8 @@ module.exports = function(config) {
     files: [      
       'src/common/*.js',
       'src/dataMappers/*.js',
+      'bower_components/mathjs/dist/math.min.js',
+      'src/distances/EuclideanDistance.js',
       'test/spec/*Spec.js'
     ],
 
