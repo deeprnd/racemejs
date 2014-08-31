@@ -1,7 +1,6 @@
 /*global describe, it, beforeEach, expect */
-'use strict';
-
 (function () {
+    'use strict';
     describe('Mappers', function () {
         var loadDependencies = function loadDependencies(callback) {
             if (typeof define === 'function' && define.amd) {

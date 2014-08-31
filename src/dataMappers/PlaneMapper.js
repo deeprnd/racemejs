@@ -1,16 +1,17 @@
 (function () {
     'use strict';
-
+ 
+    var COMMONJS_TYPE = 2, GLOBAL_TYPE = 3;
     var loadDependencies = function loadDependencies(callback) {
         if (typeof define === 'function' && define.amd) {
             // define AMD module with dependencies
-            define(['common/Vector'], callback);
+            define(['common/Vector'], callback); // cannot pass env type
         } else if (typeof(module) !== 'undefined' && module.exports) {
             // load CommonJS module
-            callback(require('../common/Vector.js'), 2);
+            callback(require('../common/Vector.js'), COMMONJS_TYPE);
         } else {
             // Publish as global (in browsers)
-            callback(Raceme.Common.Vector, 3);
+            callback(Raceme.Common.Vector, GLOBAL_TYPE);
         }
     };
     loadDependencies(function (Vector, env) {
@@ -18,17 +19,18 @@
             var mapVector = function mapVector(node) {
                 return new Vector([node.x, node.y]);
             };
-
+ 
             return {
                 mapVector: mapVector
             };
         };
-
+ 
+        // finalize the declaration
         switch(env) {
-            case 2:
+            case COMMONJS_TYPE:
                 module.exports = PlaneMapper();
                 break;
-            case 3:
+            case GLOBAL_TYPE:
                 var Raceme = window.Raceme = window.Raceme || {};
                 Raceme.DataMappers = Raceme.DataMappers || {};
                 Raceme.DataMappers.PlaneMapper = PlaneMapper();
