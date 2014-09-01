@@ -1,6 +1,8 @@
 Raceme.js
 =============
 
+[![Build Status](https://travis-ci.org/aie0/racemejs.svg?branch=master)](https://travis-ci.org/aie0/racemejs)
+
 JavaScript clustering algorithms framework
 
 ***Roadmap:***
