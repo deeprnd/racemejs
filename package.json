@@ -38,5 +38,8 @@
     "grunt-karma": "~0.8.3"
   },
   "bundleDependencies": [],
-  "private": false
+  "private": false,
+  "scripts": {
+    "test": "grunt"
+  }
 }
