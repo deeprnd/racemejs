@@ -4,7 +4,7 @@
     var loadDependencies = function loadDependencies(callback) {
         if (typeof define === 'function' && define.amd) {
             // define AMD module with dependencies
-            define(['bower_components/mathjs/dist/math'], callback); // cannot pass env type
+            define(['mathjs'], callback); // cannot pass env type
         } else if (typeof(module) !== 'undefined' && module.exports) {
             // load CommonJS module
             callback(require('mathjs'), COMMONJS_TYPE);

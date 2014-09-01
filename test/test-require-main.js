@@ -13,13 +13,16 @@
 
     requirejs.config({
         // Karma serves files from '/base'
-        baseUrl: 'http://localhost:9876/base/',
+        baseUrl: 'http://localhost:9876/base/src/',
 
         // ask Require.js to load these files (all our tests)
         deps: tests,
+        paths: {
+            "mathjs": "../lib/mathjs/dist/math.min"
+        },
         shim: {
-            'math': {
-                exports: 'math'
+            'mathjs': {
+                exports: 'mathjs'
             }
         },
         // start test run, once Require.js is done
