@@ -1,11 +1,10 @@
-/*global math */
 (function (key) {
     'use strict';
     var COMMONJS_TYPE = 2, GLOBAL_TYPE = 3;
     var loadDependencies = function loadDependencies(callback) {
         if (typeof define === 'function' && define.amd) {
             // define AMD module with dependencies
-            define(['Utils'], callback); // cannot pass env type
+            define(['common/Utils'], callback); // cannot pass env type
         } else if (typeof(module) !== 'undefined' && module.exports) {
             // load CommonJS module
             callback(require('../common/Utils.js'), COMMONJS_TYPE);

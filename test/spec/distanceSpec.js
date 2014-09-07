@@ -5,9 +5,8 @@
         var loadDependencies = function loadDependencies(callback) {
             if (typeof define === 'function' && define.amd) {
                 // load AMD module
-                define(['common/Vector', 'dataMappers/PlaneMapper',
-                    'distances/EuclideanDistance', 'distances/ManhattanDistance',
-                    'distances/WardDistance'], callback);
+                define(['common/Vector', 'dataMappers/PlaneMapper', 'distances/EuclideanDistance',
+                    'distances/ManhattanDistance', 'distances/WardDistance'], callback);
             } else if (typeof(module) !== 'undefined' && module.exports) {
                 // load CommonJS module
                 callback(require('../../src/common/Vector.js'),

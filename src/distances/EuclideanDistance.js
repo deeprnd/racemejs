@@ -1,4 +1,3 @@
-/*global math */
 (function (key) {
     'use strict';
     var COMMONJS_TYPE = 2, GLOBAL_TYPE = 3;

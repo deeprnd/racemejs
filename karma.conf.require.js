@@ -17,7 +17,6 @@ module.exports = function(config) {
     files: [
         {pattern: 'lib/mathjs/dist/math.min.js', included: false},
         {pattern: 'lib/lodash/dist/lodash.min.js', included: false},
-        {pattern: 'lib/requirejs/require.js', included: false},
         {pattern: 'src/common/*.js', included: false},
         {pattern: 'src/dataMappers/*.js', included: false},
         {pattern: 'src/distances/*.js', included: false},

@@ -26,7 +26,8 @@
                     return vector.map(function(item) {
                         arr = item.toArray();
                         return {
-                            x: arr[0],
+                            x: arr
+                                [0],
                             y: arr[1]
                         };
                     });

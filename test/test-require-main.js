@@ -18,11 +18,15 @@
         // ask Require.js to load these files (all our tests)
         deps: tests,
         paths: {
-            "mathjs": "../lib/mathjs/dist/math.min"
+            "mathjs": "../lib/mathjs/dist/math.min",
+            "lodash": "../lib/lodash/dist/lodash.min"
         },
         shim: {
             'mathjs': {
                 exports: 'mathjs'
+            },
+            'lodash': {
+                exports: 'lodash'
             }
         },
         // start test run, once Require.js is done
