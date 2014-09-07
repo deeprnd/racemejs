@@ -15,11 +15,13 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+        {pattern: 'lib/mathjs/dist/math.min.js', included: false},
+        {pattern: 'lib/lodash/dist/lodash.min.js', included: false},
         {pattern: 'lib/requirejs/require.js', included: false},
         {pattern: 'src/common/*.js', included: false},
         {pattern: 'src/dataMappers/*.js', included: false},
-        {pattern: 'lib/mathjs/dist/math.min.js', included: false},
         {pattern: 'src/distances/*.js', included: false},
+        {pattern: 'src/algorithms/*.js', included: false},
         {pattern: 'test/spec/*Spec.js', included: false},
         'test/test-require-main.js'
     ],

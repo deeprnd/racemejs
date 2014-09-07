@@ -4,7 +4,10 @@
   "dependencies": {
       "jasmine": "~2.0.2",
       "requirejs": "~2.1.14",
-      "mathjs": "~0.27.0"
+      "mathjs": "~0.27.0",
+      "lodash": "~2.4.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+  	"lodash": "https://github.com/lodash/lodash.git"
+  }
 }

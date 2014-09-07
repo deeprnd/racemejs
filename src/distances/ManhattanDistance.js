@@ -1,39 +1,34 @@
+/*global math */
 (function (key) {
     'use strict';
     var COMMONJS_TYPE = 2, GLOBAL_TYPE = 3;
     var loadDependencies = function loadDependencies(callback) {
         if (typeof define === 'function' && define.amd) {
             // define AMD module with dependencies
-            define(['mathjs'], callback); // cannot pass env type
+            define(['Utils'], callback); // cannot pass env type
         } else if (typeof(module) !== 'undefined' && module.exports) {
             // load CommonJS module
-            callback(require('mathjs'), COMMONJS_TYPE);
+            callback(require('../common/Utils.js'), COMMONJS_TYPE);
         } else {
             // Publish as global (in browsers)
-            callback(math, GLOBAL_TYPE);
+            callback(Raceme.Common.Utils, GLOBAL_TYPE);
         }
     };
-    loadDependencies(function (math, env) {
-        var ManhattanDistance = function (dataMapper) {
+    loadDependencies(function (Utils, env) {
+        var ManhattanDistance = function () {
             /* Start private parameters and functions of the class */
             var privates = {
-                dataMapper: undefined,
-
                 getDistance: function getDistance(node1, node2) {
-                    var v1 = this.dataMapper.mapVector(node1).toArray(),
-                        v2 = this.dataMapper.mapVector(node2).toArray(),
+                    var v1 = node1.toArray(),
+                        v2 = node2.toArray(),
                         sum = 0, i, len;
                     if (v1.length !== v2.length) {
                         throw new Error('Length of vectors is not the same');
                     }
                     for (i = 0, len = v1.length; i < len; i += 1) {
-                        sum += math.abs(v1[i] - v2[i]);
+                        sum += Utils.abs(v1[i] - v2[i]);
                     }
-                    return math.round(sum, 4);
-                },
-
-                _constructor: function _constructor(dataMapper) {
-                    this.dataMapper = dataMapper;
+                    return Utils.round(sum, 4);
                 }
             };
             /* End private parameters and functions of the class */
@@ -41,7 +36,6 @@
             this.getPrivates = function getPrivates(aKey) {
                 return key === aKey && privates;
             };
-            privates._constructor(dataMapper);
         };
 
         ManhattanDistance.prototype = {

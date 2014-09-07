@@ -34,11 +34,11 @@
                         x: -5,
                         y: 6
                     };
-                    measurer = new EuclideanDistance(PlaneMapper);
+                    measurer = new EuclideanDistance();
                 });
                 it('check distance', function () {
                     //?((2 + 5)? + (3 - 6)?) = ?(49 + 9) = 7.615773105863908
-                    expect(measurer.getDistance(node1, node2)).toEqual(7.6158);
+                    expect(measurer.getDistance(PlaneMapper.mapNode(node1), PlaneMapper.mapNode(node2))).toEqual(7.6158);
                 });
             });
 
@@ -52,11 +52,11 @@
                         x: -5,
                         y: 6
                     };
-                    measurer = new ManhattanDistance(PlaneMapper);
+                    measurer = new ManhattanDistance();
                 });
                 it('check distance', function () {
                     //|2 + 5| + |3 - 6| = (7 + 3) = 10
-                    expect(measurer.getDistance(node1, node2)).toEqual(10);
+                    expect(measurer.getDistance(PlaneMapper.mapNode(node1), PlaneMapper.mapNode(node2))).toEqual(10);
                 });
             });
 
@@ -74,7 +74,7 @@
                 });
                 it('check distance', function () {
                     //((2 + 5)? + (3 - 6)?) = (49 + 9) = 58
-                    expect(measurer.getDistance(node1, node2)).toEqual(58);
+                    expect(measurer.getDistance(PlaneMapper.mapNode(node1), PlaneMapper.mapNode(node2))).toEqual(58);
                 });
             });
         });

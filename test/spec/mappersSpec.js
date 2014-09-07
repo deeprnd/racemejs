@@ -15,19 +15,33 @@
             }
         };
         loadDependencies(function (Vector, PlaneMapper) {
-            var vector;
             describe('PlaneMapper', function () {
-                var mapper, node;
+                var mapper, node, vector;
                 beforeEach(function() {
                     mapper = PlaneMapper;
                     node = {
                         x: 5,
                         y: 10
                     };
+                    vector = new Vector([5, 10]);
                 });
-                it('check mapping', function () {
-                    vector = mapper.mapVector(node);
-                    expect(vector.toArray()).toEqual([5, 10]);
+                it('check map node', function () {
+                    expect(mapper.mapNode(node).toArray()).toEqual([5, 10]);
+                });
+
+                it('check map vector object', function () {
+                    expect(mapper.mapVector(vector)).toEqual(node);
+                });
+
+                it('check map vector array', function () {
+                    var vectors = [new Vector([1,2]),new Vector([3,4])];
+                    expect(mapper.mapVector(vectors)).toEqual([{
+                        x: 1,
+                        y: 2
+                    }, {
+                        x: 3,
+                        y: 4
+                    }]);
                 });
             });
         });
