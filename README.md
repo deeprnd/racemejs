@@ -7,6 +7,9 @@ JavaScript clustering algorithms framework
 
 ***Roadmap:***
 - K-medoids clustering algorithm
+- Large dataset support
+- MongoDb support
+- Hadoop support
 - Girvan-Newman Betweenness Clustering Algorithm
 - Agglomerative Genetic Algorithm for Clustering in Social Networks
 - A Genetic Algorithm for Community Detection in Social Networks
