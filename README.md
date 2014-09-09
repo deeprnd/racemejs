@@ -6,6 +6,7 @@ Raceme.js
 JavaScript clustering algorithms framework
 
 ***Roadmap:***
+- K-Medoids clustering algorithm
 - Large dataset support
 - MongoDb adapter
 - Redis adapter
@@ -25,6 +26,5 @@ All the explanation and based literature can be found in *articles* folder.
 changelog
 ---------
 
-* _0.3_  - K-Medoids clustering algorithm
 * _0.2_  - K-Means clustering algorithm
 * _0.1_  - Euclidian/Manhattan/Ward's method distance measurement
