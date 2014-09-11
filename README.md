@@ -7,10 +7,11 @@ JavaScript clustering algorithms framework
 
 ***Roadmap:***
 - K-Medoids clustering algorithm
-- Large dataset support
-- MongoDb adapter
-- Redis adapter
-- Hadoop adapter
+- Ajax store adapter
+- Key-value store adapter (Redis)
+- Column family store adapter (Cassandra)
+- Graph store adapter (Neo4j)
+- Document store adapted (MongoDB)
 - Fuzzy C-Means Algorithm
 - Code refactoring, full documentation and wiki setup
 - Official release
