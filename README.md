@@ -6,12 +6,12 @@ Raceme.js
 JavaScript clustering algorithms framework
 
 ***Roadmap:***
-- K-Medoids clustering algorithm
 - Ajax store adapter
 - Key-value store adapter (Redis)
 - Column family store adapter (Cassandra)
 - Graph store adapter (Neo4j)
 - Document store adapted (MongoDB)
+- K-Medoids clustering algorithm
 - Fuzzy C-Means Algorithm
 - Code refactoring, full documentation and wiki setup
 - Official release
