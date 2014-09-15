@@ -19,7 +19,8 @@
         deps: tests,
         paths: {
             "mathjs": "../lib/mathjs/dist/math.min",
-            "lodash": "../lib/lodash/dist/lodash.min"
+            "lodash": "../lib/lodash/dist/lodash.min",
+            "async": "../lib/async/lib/async"
         },
         shim: {
             'mathjs': {
@@ -27,6 +28,9 @@
             },
             'lodash': {
                 exports: 'lodash'
+            },
+            'async': {
+                exports: 'async'
             }
         },
         // start test run, once Require.js is done

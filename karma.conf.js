@@ -15,9 +15,11 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+      'lib/async/lib/async.js',
       'lib/mathjs/dist/math.min.js',
       'lib/lodash/dist/lodash.min.js',
       'src/common/*.js',
+      'src/stores/MemoryStore.js',
       'src/dataMappers/*.js',
       'src/distances/*.js',
       'src/algorithms/*.js',

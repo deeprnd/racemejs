@@ -27,5 +27,6 @@ All the explanation and based literature can be found in *articles* folder.
 changelog
 ---------
 
+* _0.3_  - Support for large graphs
 * _0.2_  - K-Means clustering algorithm
 * _0.1_  - Euclidian/Manhattan/Ward's method distance measurement

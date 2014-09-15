@@ -18,7 +18,7 @@
     loadDependencies(function (math, _, env) {
         var Utils = function () {
             var pickRandom = function pickRandom(list, num) {
-                var len, i, result = [], indices;
+                var len, i, result, indices, hashTable, index;
                 if (num === undefined) {
                     return math.pickRandom(list);
                 }
@@ -26,9 +26,21 @@
                 if (num >= len) {
                     return list;
                 }
-                indices = _.shuffle(_.range(len));
-                for (i = 0; i < num; i += 1) {
-                    result.push(list[indices[i]]);
+
+                result = [];
+                if (num > len / 2) {
+                    indices = _.shuffle(_.range(len));
+                    for (i = 0; i < num; i += 1) {
+                        result.push(list[indices[i]]);
+                    }
+                } else {
+                    hashTable = {};
+                    while(result.length < num){
+                        index = math.randomInt(0, num);
+                        if (!hashTable[index]) {
+                            result.push(list[index]);
+                        }
+                    }
                 }
                 return result;
             },
@@ -69,7 +81,9 @@
                 pickRandom: pickRandom,
                 min: min,
                 isEqual: isEqual,
-                isArray: _.isArray
+                isArray: _.isArray,
+                range: _.range,
+                size: _.size
             };
         };
 

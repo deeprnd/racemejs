@@ -61,12 +61,27 @@
                         expect(sub.length).toEqual(4);
                     });
 
-                    it('check parameters content', function () {
+                    it('check parameters content k<n/2', function () {
                         var i, sub = Utils.pickRandom(list, 4);
-                        for(i = 0; i < 4; i += 1) {
+                        expect(sub.length).toEqual(4);
+                        for(i = 0; i < sub.length; i += 1) {
                             expect(list.indexOf(sub[i])).toBeGreaterThan(-1);
                             expect(list.indexOf(sub[i])).toBeLessThan(10);
                         }
+                    });
+
+                    it('check parameters content k>n/2', function () {
+                        var i, sub = Utils.pickRandom(list, 7);
+                        expect(sub.length).toEqual(7);
+                        for(i = 0; i < sub.length; i += 1) {
+                            expect(list.indexOf(sub[i])).toBeGreaterThan(-1);
+                            expect(list.indexOf(sub[i])).toBeLessThan(10);
+                        }
+                    });
+
+                    it('check parameters equal length', function () {
+                        var sub = Utils.pickRandom(list, 10);
+                        expect(sub).toEqual(list);
                     });
                 });
 
@@ -103,13 +118,40 @@
                     });
                 });
 
-                describe('check isArray for objects', function () {
+                describe('check isArray', function () {
                     it('check with objects parameters', function () {
                         expect(Utils.isArray({})).toBeFalsy();
                     });
 
-                    it('check isArray for arrays', function () {
+                    it('check with arrays', function () {
                         expect(Utils.isArray([])).toBeTruthy();
+                    });
+                });
+
+                describe('check range', function () {
+                    it('check with end', function () {
+                        expect(Utils.range(5)).toEqual([0, 1, 2, 3, 4]);
+                    });
+
+                    it('check with start end', function () {
+                        expect(Utils.range(-2, 3)).toEqual([-2, -1, 0, 1, 2]);
+                    });
+
+                    it('check with custom step', function () {
+                        expect(Utils.range(-2, 3, 2)).toEqual([-2, 0, 2]);
+                    });
+                });
+
+                describe('check size', function () {
+                    it('check with object', function () {
+                        expect(Utils.size({
+                            x: 1,
+                            y: 2
+                        })).toEqual(2);
+                    });
+
+                    it('check with array', function () {
+                        expect(Utils.size([1,2])).toEqual(2);
                     });
                 });
             });
