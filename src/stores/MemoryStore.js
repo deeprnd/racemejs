@@ -37,11 +37,26 @@
                 },
 
                 pickRandom: function pickRandom(count, callback) {
-                    callback(null, Utils.pickRandom(config.graph.nodes, count));
+                    var random;
+                    try {
+                        random = Utils.pickRandom(config.graph.nodes, count);
+                    } catch(e) {
+                        return callback(e);
+                    }
+                    callback(null, random);
                 },
 
                 init: function init(callback) {
                     callback();
+                },
+
+                set: function set(key, value, callback) {
+                    config.graph.nodes.push(value);
+                    callback();
+                },
+
+                isEnd: function isEnd(cursor) {
+                    return !cursor;
                 },
 
                 destroy: function destroy(callback) {
@@ -52,10 +67,6 @@
                     config.graph.nodes = [];
                     config.graph.edges = [];
                     callback();
-                },
-
-                onError: function onError() {
-                    'nothing';
                 },
 
                 _constructor: function _constructor(config) {
@@ -86,11 +97,14 @@
             destroy: function destroy(callback) {
                 return this.getPrivates(key).destroy(callback);
             },
-            onError: function onError(callback) {
-                return this.getPrivates(key).onError(callback);
-            },
             purge: function purge(callback) {
                 return this.getPrivates(key).purge(callback);
+            },
+            isEnd: function isEnd(cursor, callback) {
+                return this.getPrivates(key).isEnd(cursor, callback);
+            },
+            set: function set(_key, value, callback) {
+                return this.getPrivates(key).set(_key, value, callback);
             }
         };
 

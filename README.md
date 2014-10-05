@@ -6,8 +6,6 @@ Raceme.js
 JavaScript clustering algorithms framework
 
 ***Roadmap:***
-- Ajax store adapter
-- Key-value store adapter (Redis)
 - Column family store adapter (Cassandra)
 - Graph store adapter (Neo4j)
 - Document store adapted (MongoDB)
@@ -27,6 +25,7 @@ All the explanation and based literature can be found in *articles* folder.
 changelog
 ---------
 
+* _0.4_  - Key-value store adapter (Redis)
 * _0.3_  - Support for large graphs
 * _0.2_  - K-Means clustering algorithm
 * _0.1_  - Euclidian/Manhattan/Ward's method distance measurement

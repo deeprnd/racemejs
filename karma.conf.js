@@ -19,7 +19,7 @@ module.exports = function(config) {
       'lib/mathjs/dist/math.min.js',
       'lib/lodash/dist/lodash.min.js',
       'src/common/*.js',
-      'src/stores/MemoryStore.js',
+      'src/stores/*.js',
       'src/dataMappers/*.js',
       'src/distances/*.js',
       'src/algorithms/*.js',

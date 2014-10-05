@@ -23,7 +23,9 @@
                     return math.pickRandom(list);
                 }
                 len = list.length;
-                if (num >= len) {
+                if (num > len) {
+                    throw new Error('Number of keys is larger then length');
+                } else if (num === len) {
                     return list;
                 }
 
@@ -83,7 +85,8 @@
                 isEqual: isEqual,
                 isArray: _.isArray,
                 range: _.range,
-                size: _.size
+                size: _.size,
+                unique: _.uniq
             };
         };
 

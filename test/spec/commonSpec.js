@@ -83,6 +83,14 @@
                         var sub = Utils.pickRandom(list, 10);
                         expect(sub).toEqual(list);
                     });
+
+                    it('check for exception with parameters k>n length', function () {
+                        try {
+                            Utils.pickRandom(list, 100);
+                        } catch(e) {
+                            expect(e).toEqual(new Error('Number of keys is larger then length'));
+                        }
+                    });
                 });
 
                 describe('check min', function () {
@@ -152,6 +160,16 @@
 
                     it('check with array', function () {
                         expect(Utils.size([1,2])).toEqual(2);
+                    });
+                });
+
+                describe('check unique', function () {
+                    it('check with same', function () {
+                        expect(Utils.unique([1, 1, 2, 3, 4, 1, 2])).toEqual([1, 2, 3, 4]);
+                    });
+
+                    it('check with unique', function () {
+                        expect(Utils.unique([1, 2, 3, 4])).toEqual([1, 2, 3, 4]);
                     });
                 });
             });
